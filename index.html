@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepagestyle.css">
+    <title>homepage...</title>
+
+</head>
+
+
+<body>
+    <img src="transparent-hamburger.png" alt="" id="hamimage">
+
+    <div class="child1" id="child1">
+        <div class="user">
+            <img src="usericon.jpeg" alt="user image" class="usericon">
+            <P
+                style="text-shadow: 1px; font-family: 'Times New Roman', Times, serif; font-weight: 700; color: rgba(14, 14, 14, 0.85);padding: 2px; text-align: center;">
+                HEALTHY HACKS</P>
+            <button class="hambutton">
+                <p id="hambutton1" style="color:(11, 87, 194) ;">VISIT PROFILE</p>
+            </button>
+        </div>
+        <div class="endsec">
+            <p class="end">Archieve</p>
+            <hr>
+            <p class="end">Label</p>
+            <hr>
+            <p class="end" style="color: rgb(11, 87, 194);">Report Abuse</p>
+        </div>
+
+    </div>
+
+
+
+
+    <a href="http://www.google.com/" target="_blank"><img height="30" src="downloadsearch.png" class="search"
+            style="float: right; color: aliceblue;"></a><br><br>
+    <h1 style="color: #ffffff;"> healthy hacks </h1>
+    <div class="section">
+        <p>
+        <h3>What not to do daily !!!!</h3>
+        </p>
+        <img src="tensiond.jpg" widht="100%" style="float: center ; width: 100%;">
+        <P class="paragraph"> Oversleeping: Bad for Your Health? Share on Facebook Share on Twitter Share on
+            Linkedin Share on Pinterest Share via Email Most people know that skimping on
+            sleep can be bad for you. Regularly getting too little sleep is linked to a number
+            of chronic diseases, not to mention irritability and sluggishness during the day.
+            But did you know that sleeping too much could also be problematic? Oversleeping
+            is associated with many health problems, including: Type 2 diabetes
+            Heart disease Obesity Depression Headaches Greater risk of dying from a medical
+            condition . Eating Junkk.... &nbsp;
+            <a href="page2.html">READ MORE </a>
+        </P>
+    </div>
+
+
+
+
+    <script>
+        let x = document.getElementById("child1");
+        let y = document.getElementById("hamimage");
+        y.addEventListener('click', toggleside);
+        function toggleside() {
+            if (x.style.display != "flex") {
+                x.style.display = "flex";
+
+            }
+            else
+                x.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
